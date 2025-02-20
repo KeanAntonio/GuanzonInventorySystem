@@ -1,0 +1,8 @@
+.linear-gradient-bg{
+     -fx-background-color: linear-gradient(to bottom, black, orangered);
+}
+
+.instagram-bg{
+    -fx-background-color: linear-gradient(to bottom, #A807F0, #FB0C9C);
+}
+
