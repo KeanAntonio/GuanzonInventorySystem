@@ -2,7 +2,20 @@
      -fx-background-color: linear-gradient(to bottom, black, orangered);
 }
 
-.instagram-bg{
-    -fx-background-color: linear-gradient(to bottom, #A807F0, #FB0C9C);
+.button:hover {
+    -fx-background-color: #FF6F61; 
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 0); 
+}
+
+.hyperlink {
+    -fx-text-fill: #000000; /* Blue color for the hyperlink */
+    -fx-font-size: 14px;
+    -fx-font-family: "Tahoma";
+    -fx-underline: true; /* Make the text underlined */
+    -fx-cursor: hand; /* Change cursor to hand */
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #1E90FF; /* Change color on hover */ 
 }
 

@@ -17,8 +17,11 @@ public class App extends Application {
         // Load the FXML and set up the scene
         scene = new Scene(loadFXML("/com/gis/fxml/welcome"));
         
+        
         // Set up the stage (window)
         stage.setScene(scene);
+        stage.setResizable(false);
+        stage.setMaximized(false);
         stage.setTitle("Guanzon Inventory Management");
         stage.show();
     }
